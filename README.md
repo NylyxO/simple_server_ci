@@ -4,13 +4,6 @@ This is a simple web server that serves a single route.
 
 To set up this project.
 
-I messed around with the workflow file which I placed in the topmost directory. It seems like this is more trouble than it's worth.
-
-
-Persevere and you will succeed.
-
-Penultimate experiment
-
 ```bash
 ; pipenv install
 ; pipenv shell
