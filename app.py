@@ -11,6 +11,12 @@ def get_home():
 def get_goodbye():
     return "Farewell, to all the earthly remains~"
 
+@app.route('/message', methods=['GET'])
+def get_message():
+    message = request.args['message']
+    return f"{message}"
+
+
 if __name__ == '__main__':
     app.run(
       debug=True,
