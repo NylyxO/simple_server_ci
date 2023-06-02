@@ -9,7 +9,7 @@ def get_home():
 
 @app.route('/goodbye', methods=['GET'])
 def get_goodbye():
-    return "Farewell, world!!"
+    return "Farewell, to all the earthly remains~"
 
 if __name__ == '__main__':
     app.run(
