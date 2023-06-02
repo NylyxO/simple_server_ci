@@ -6,4 +6,4 @@ def test_get_home(web_client):
 def test_get_goodbye(web_client):
     response = web_client.get("/goodbye")
     assert response.status_code == 200
-    assert response.data.decode("utf-8") == "Goodbye, world!"
+    assert response.data.decode("utf-8") == "Farewell, world!"
